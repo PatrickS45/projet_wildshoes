@@ -30,4 +30,10 @@ body {
 }
 */
 
+.intro {
+    text-align: justify;
+    }
+
+.carte {
+    padding-left: 640px;
 }
