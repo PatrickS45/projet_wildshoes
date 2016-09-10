@@ -21,14 +21,20 @@ body {
     max-height: 1280px;
 }
 
-/*.texture {
-    background-image:url(image/autres/cuir_test.jpg);
+.texture {
+   
+  /* background-image:url(image/autres/cuir_test.jpg);
     height: 400px;
     width: 1200px;
     background-repeat: no-repeat;
-	background-size: auto;
+	background-size: auto;*/
 }
-*/
+
+#titre_presentation {
+    margin-bottom: 60px;
+    text-align: center;
+    
+}
 
 .intro {
     text-align: justify;
