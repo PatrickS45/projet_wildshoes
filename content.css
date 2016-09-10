@@ -15,9 +15,19 @@
 
 body {
     color : white;
-    background:url(image/autres/background_2.jpg) no-repeat fixed;
+    background:url(image/autres/background_3.jpg) no-repeat fixed;
+  /*  background-size: contain;*/
+    max-width: 1920px;
+    max-height: 1280px;
 }
-.chausse {
-    height : 200px;
-    width: 242px;
+
+/*.texture {
+    background-image:url(image/autres/cuir_test.jpg);
+    height: 400px;
+    width: 1200px;
+    background-repeat: no-repeat;
+	background-size: auto;
+}
+*/
+
 }
