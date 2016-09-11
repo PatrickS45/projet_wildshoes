@@ -1,4 +1,14 @@
+body{
+    padding-top: 50px;
+}
+
 .chausse{
     max-height: 242px;
     max-width: 200px;
+}
+
+.navbar-brand{
+    max-height: 200px;
+    max-width: 150px;
+    position: relative;
 }
