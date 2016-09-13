@@ -42,25 +42,25 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nos chausse-pieds <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Le métal</a></li>
-                                <li><a href="#">La corne</a></li>
-                                <li><a href="#">Le téléscopique</a></li>
-                                <li><a href="#">Le bois</a></li>
+                                <li><a href="#chausse-pied_metal">Le métal</a></li>
+                                <li><a href="#chausse-pied_corne">La corne</a></li>
+                                <li><a href="#chausse-pied_telescopique">Le téléscopique</a></li>
+                                <li><a href="#chausse-pied_bois">Le bois</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nos tire-bottes <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Le bois</a></li>
-                                <li><a href="#">Le métal</a></li>
-                                <li><a href="#">Le grattoir</a></li>
+                                <li><a href="#tire-botte_bois">Le bois</a></li>
+                                <li><a href="#tire-botte_metal">Le métal</a></li>
+                                <li><a href="#grattoir">Le grattoir</a></li>
                             </ul>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Personnalisation <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="#">Les matériaux</a></li>
-                                <li><a href="#">Les gravures</a></li>
-                                <li><a href="#">Le sur-mesure</a></li>
+                                <li><a href="#materiaux">Les matériaux</a></li>
+                                <li><a href="#gravures">Les gravures</a></li>
+                                <li><a href="#sur-mesure">Le sur-mesure</a></li>
                             </ul>
                         <li><a href="#">Nous contacter</a></li>
                         </li>    
@@ -153,23 +153,45 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="thumbnail">
-                <img class="chausse" src="image/chausse_pied_metal.jpeg" alt="Chausse-Pied">
-                <div class="caption">
-                    <h3>Le métal</h3>
-                    <p><a href="#" class="btn btn-danger" role="button">En savoir plus...</a> </p>
+        <div class="thumbnail">
+            <img class="chausse" src="image/chausse_pied_corne.jpeg" alt="Le chausse-pied_metal" id="chausse-pied_metal">
+            <div class="caption">
+                <h3>Le métal</h3>   
 
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                    En savoir plus
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+
+                                <h4 class="modal-title" id="myModalLabel">Chausse-pied en métal</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img src="image/chausse_pied_metal.jpeg" alt="un chausse-pied en métal"/>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div> 
+            </div> 
+        </div>
+    </div>
+        
 
     
 
     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
         <div class="thumbnail">
-            <img class="chausse" src="image/chausse_pied_corne.jpeg" alt="Le métal">
+            <img class="chausse" src="image/chausse_pied_corne.jpeg" alt="Le chausse-pied corne" id="chausse-pied_corne">
             <div class="caption">
-                <h3>Le métal</h3>   
+                <h3>La corne</h3>   
 
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
@@ -199,9 +221,9 @@
 
     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
         <div class="thumbnail">
-            <img class="chausse" src="image/chausse_pied_corne.jpeg" alt="Le métal">
+            <img class="chausse" src="image/chausse_pied_corne.jpeg" alt="Le chausse-pied téléscopique" id="chausse-pied_telescopique">
             <div class="caption">
-                <h3>Le métal</h3>   
+                <h3>Le téléscopique</h3>   
 
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
@@ -231,9 +253,9 @@
 
     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
         <div class="thumbnail">
-            <img class="chausse" src="image/chausse_pied_corne.jpeg" alt="Le métal">
+            <img class="chausse" src="image/chausse_pied_corne.jpeg" alt="Le chausse-pied bois" id="chausse-pied_bois">
             <div class="caption">
-                <h3>Le métal</h3>   
+                <h3>Le bois</h3>   
 
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
@@ -266,7 +288,7 @@
 
 </div>
 
-
+<!---------------------------------------------------------- CITATION 2 --------------------------------------------------------->
 
 <div class="bloc_citation">
 
@@ -290,7 +312,39 @@
     <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="chausse" src="image/chausse_pied_corne.jpeg" alt="Le métal">
+                <img class="chausse" src="image/chausse_pied_corne.jpeg" alt="Le tire-botte bois" id="tire-botte_bois">
+                <div class="caption">
+                    <h3>Le bois</h3>   
+
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                        En savoir plus
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+
+                                    <h4 class="modal-title" id="myModalLabel">Chausse-pied en métal</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="image/chausse_pied_metal.jpeg" alt="un chausse-pied en métal"/>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="thumbnail">
+                <img class="chausse" src="image/chausse_pied_corne.jpeg" alt="Le tire-botte métal" id="tire-botte_metal">
                 <div class="caption">
                     <h3>Le métal</h3>   
 
@@ -322,9 +376,9 @@
 
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="chausse" src="image/chausse_pied_corne.jpeg" alt="Le métal">
+                <img class="chausse" src="image/chausse_pied_corne.jpeg" alt="Le grattoir" id="grattoir">
                 <div class="caption">
-                    <h3>Le métal</h3>   
+                    <h3>Le grattoir</h3>   
 
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
@@ -351,44 +405,7 @@
                 </div> 
             </div>
         </div>
-
-        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-            <div class="thumbnail">
-                <img class="chausse" src="image/chausse_pied_corne.jpeg" alt="Le métal">
-                <div class="caption">
-                    <h3>Le métal</h3>   
-
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-                        En savoir plus
-                    </button>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-
-                                    <h4 class="modal-title" id="myModalLabel">Chausse-pied en métal</h4>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="image/chausse_pied_metal.jpeg" alt="un chausse-pied en métal"/>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-        </div>
-
-
-
     </div>
-
-
 </div>
 
 <!--------------------------------------------------------------------- CITATION 3----------------------------------------------------------------->
@@ -413,9 +430,9 @@
     <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="chausse" src="image/chausse_pied_corne.jpeg" alt="Le métal">
+                <img class="chausse" src="image/chausse_pied_corne.jpeg" alt="Les matériaux" id="materiaux">
                 <div class="caption">
-                    <h3>Le métal</h3>   
+                    <h3>Les materiaux</h3>   
 
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
@@ -445,9 +462,9 @@
 
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="chausse" src="image/chausse_pied_corne.jpeg" alt="Le métal">
+                <img class="chausse" src="image/chausse_pied_corne.jpeg" alt="Les gravures" id="gravures">
                 <div class="caption">
-                    <h3>Le métal</h3>   
+                    <h3>Les gravures</h3>   
 
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
@@ -477,9 +494,9 @@
 
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
             <div class="thumbnail">
-                <img class="chausse" src="image/chausse_pied_corne.jpeg" alt="Le métal">
+                <img class="chausse" src="image/chausse_pied_corne.jpeg" alt="Le sur-mesure" id="sur-mesure">
                 <div class="caption">
-                    <h3>Le métal</h3>   
+                    <h3>Le sur-mesure</h3>   
 
                     <!-- Button trigger modal -->
                     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
