@@ -35,6 +35,11 @@ body {
     
     margin-top: 30px;
     margin-bottom: 30px;
+    background-color: rgba(255,255,255,0.2);   
+    color : sandybrown;
+    text-shadow: 1px 1px black;
+    font-style: italic;
+    font-size: 20px;
 }
 
 
