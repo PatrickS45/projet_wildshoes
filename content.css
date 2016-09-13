@@ -1,6 +1,10 @@
 body{
     padding-top: 50px;
-    
+    color : white;
+    background:url(image/autres/background_3.1.jpg) no-repeat fixed;
+  /*  background-size: contain;*/
+    max-width: 1920px;
+    max-height: 1280px;
 }
 
 .chausse{
@@ -8,8 +12,35 @@ body{
     max-width: 200px;
 }
 
+
 .navbar-brand{
     max-height: 200px;
     max-width: 150px;
     position: relative;
+}
+
+.bloc_carousel {
+    margin-bottom: 30px;
+}
+
+.bloc_citation {
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+#titre_presentation {
+    margin-bottom: 60px;
+    text-align: center;
+    
+}
+
+.intro {
+    text-align: justify;
+    }
+
+.carte {
+    padding-left: 640px;
+
 }
