@@ -7,8 +7,6 @@ body {
 
 }
 
-
-
 .test {
     display: block;
     margin-left: auto;
@@ -19,7 +17,6 @@ body {
     max-height: 242px;
     max-width: 200px;
 }
-
 
 .navbar-brand{
     max-height: 200px;
@@ -46,7 +43,7 @@ body {
 #titre_presentation {
     margin-bottom: 60px;
     text-align: center;
-    
+
 }
 
 .intro {
@@ -56,4 +53,13 @@ body {
 .carte {
     padding-left: 640px;
 
+}
+
+footer {
+    max-height: 400px;
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
