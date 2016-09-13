@@ -2,3 +2,44 @@
     max-height: 242px;
     max-width: 200px;
 }
+
+.bloc_carousel {
+    margin-bottom: 30px;
+}
+
+.bloc_citation {
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+body {
+    color : white;
+    background:url(image/autres/background_3.1.jpg) no-repeat fixed;
+  /*  background-size: contain;*/
+    max-width: 1920px;
+    max-height: 1280px;
+}
+
+.bg_div {
+   
+  /* background-image:url(image/autres/cuir_test.jpg);
+    height: 400px;
+    width: 1200px;
+    background-repeat: no-repeat;
+	background-size: auto;*/
+}
+
+#titre_presentation {
+    margin-bottom: 60px;
+    text-align: center;
+    
+}
+
+.intro {
+    text-align: justify;
+    }
+
+.carte {
+    padding-left: 640px;
+}
