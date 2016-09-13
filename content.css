@@ -7,8 +7,6 @@ body {
 
 }
 
-
-
 .test {
     display: block;
     margin-left: auto;
@@ -19,7 +17,6 @@ body {
     max-height: 242px;
     max-width: 200px;
 }
-
 
 .navbar-brand{
     max-height: 200px;
@@ -32,16 +29,15 @@ body {
 }
 
 .bloc_citation {
-    
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
+margin-top: 30px;
+margin-bottom: 30px;
 
+}
 
 #titre_presentation {
     margin-bottom: 60px;
     text-align: center;
-    
+
 }
 
 .intro {
