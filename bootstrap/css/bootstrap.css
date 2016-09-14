@@ -5913,6 +5913,9 @@ button.close {
   outline: 0;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
           box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    
+    margin-left: auto;
+    margin-right: auto;
 }
 .modal-backdrop {
   position: fixed;
@@ -5944,11 +5947,14 @@ button.close {
 }
 .modal-body {
   position: relative;
-  padding: 15px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 .modal-footer {
   padding: 15px;
-  text-align: right;
+  text-align: center;
   border-top: 1px solid #e5e5e5;
 }
 .modal-footer .btn + .btn {
