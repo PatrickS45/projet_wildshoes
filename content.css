@@ -4,6 +4,7 @@ body {
     background-position: center center;
     background-size: 100%;
     background-size: cover;
+    padding-top: 70px;
 
 }
 
@@ -50,12 +51,6 @@ body {
     text-align: justify;
     }
 
-.carte {
-    padding-left: 640px;
-
-}
-
-
 footer {
     max-height: 400px;
     max-width: 400px;
@@ -80,4 +75,3 @@ footer {
     font-size: 30px;
     padding-bottom: 25px;
 }
-
