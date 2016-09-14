@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'dobkinplain';
+    src: url('DobkinPlain-webfont.eot');
+    src: url('DobkinPlain-webfont.eot?#iefix') format('embedded-opentype'),
+         url('DobkinPlain-webfont.woff') format('woff'),
+         url('DobkinPlain-webfont.ttf') format('truetype'),
+         url('DobkinPlain-webfont.svg#dobkinplain') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 body {
     color : white;
     background:url(image/autres/background_3.1.jpg) no-repeat fixed;
@@ -6,6 +19,10 @@ body {
     background-size: cover;
     padding-top: 70px;
 
+}
+
+#image_presentation {
+    padding-top: 30px;
 }
 
 .navbar {
@@ -49,16 +66,18 @@ blockquote {
 }
 
 
-#titre_presentation {
-    margin-bottom: 60px;
-    text-align: center;
-
-}
-
 .intro {
     text-align: justify;
-    font-size: 20px;
+    font-size: 35px;
     font-family: DobkinPlain;
+}
+
+
+h1 {
+     font-family: DobkinPlain;
+     margin-bottom: 60px;
+     text-align: center;
+    font-size: 80px;
 }
 
 footer {
