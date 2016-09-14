@@ -77,12 +77,9 @@ body {
     color : sandybrown;
     text-shadow: 2px 2px 5px black;
     font-style: italic;
-    border-radius: 15px;
-}
-
-blockquote {
     font-size: 30px;
 }
+
 
 
 .intro {
@@ -97,6 +94,10 @@ blockquote {
 .carousel-caption {
     font-size: 50px;
     font-family: DobkinPlain;
+}
+
+.modal-header { 
+  text-align: center;
 }
 
 
