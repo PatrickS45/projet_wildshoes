@@ -90,6 +90,10 @@ blockquote {
     font-size: 35px;
     font-family: DobkinPlain;
 }
+.carousel-caption {
+    font-size: 50px;
+    font-family: DobkinPlain;
+}
 
 
 h1 {
