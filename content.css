@@ -113,6 +113,9 @@ body {
   text-align: center;
 }
 
+.modal{
+    color: black;
+}
 
 h1 {
      font-family: DobkinPlain;
