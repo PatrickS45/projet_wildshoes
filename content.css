@@ -144,3 +144,7 @@ footer {
     font-size: 30px;
     padding-bottom: 25px;
 }
+
+.modal-body{
+    text-align: center;
+}
