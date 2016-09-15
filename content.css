@@ -21,6 +21,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'colaborate-regularregular';
+    src: url('ColabReg-webfont.eot');
+    src: url('ColabReg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('ColabReg-webfont.woff') format('woff'),
+         url('ColabReg-webfont.ttf') format('truetype'),
+         url('ColabReg-webfont.svg#colaborate-regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 body {
@@ -119,6 +130,20 @@ h3 {
     text-shadow: 6px 6px 12px black;
 }
 
+h2 {
+    font-weight: bolder;
+}
+
+h4 {
+    font-family: colaborate-regularregular;
+    font-size: 25px;    
+}
+
+.para_contact {
+    font-family: colaborate-regularregular;
+    font-size: 25px;
+}
+
 footer {
     max-height: 400px;
     max-width: 400px;
@@ -134,13 +159,42 @@ footer {
     padding-bottom: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
-    background-color: rgba(255,255,255,0.3);
-    color : rgb(132,75,0);
-    text-shadow: 1px 1px 1px black;
+    background-color: rgba(255,255,255,0.2);
+    color : sandybrown;
+    text-shadow: 2px 2px 5px black;
     border-radius: 25px;
 }
 .contact {
-    padding-top: 70px;
+    padding-top: 10px;
     font-size: 30px;
     padding-bottom: 25px;
+    text-shadow: 2px 2px 5px black
 }
+
+a {
+    color: sandybrown;
+    font-family: colaborate-regularregular;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px black;
+}
+
+a:hover {
+    color: navajowhite;
+}
+
+a:visited{ 
+    color: saddlebrown;
+}
+
+.fin {
+    margin-top: 15px;
+    text-align: center;
+    
+}
+
+.mention {
+    margin-top: 15px;
+    display: inline;    
+    text-align: center;
+}
+
