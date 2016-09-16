@@ -5003,7 +5003,8 @@ a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857143;
-  background:url(carre_3.jpg);
+  background:url(carre_3.jpg) no-repeat;
+    background-size: cover;
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: border .2s ease-in-out;

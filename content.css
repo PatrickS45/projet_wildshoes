@@ -180,14 +180,19 @@ a {
     font-family: colaborate-regularregular;
     font-size: 25px;
     text-shadow: 2px 2px 5px black;
+    
 }
 
 a:hover {
-    color: navajowhite;
+    color: sandybrown;
 }
 
 a:visited{ 
-    color: saddlebrown;
+    color: sandybrown;
+}
+
+.lien-map{
+    text-decoration: underline;
 }
 
 .fin {
